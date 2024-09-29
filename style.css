@@ -70,3 +70,11 @@ h2{
 .item_image:hover{
     transform: scale(1.5);
 }
+
+.footer{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(2, 111, 82);
+    align-items: flex-end;
+}
