@@ -40,3 +40,20 @@ a{
     display: flex;
     justify-content: space-around;
 }
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.item_image{
+    width: 25vw;
+    height: 30vh;
+    padding: 20px;
+}
+
+.item_image:hover{
+    transform: scale(1.5);
+}
