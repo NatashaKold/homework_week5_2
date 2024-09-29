@@ -3,13 +3,14 @@ header{
     width: 100vw;
     background-color: rgb(2, 111, 82);
     font-family: "Spicy Rice", serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     color: rgb(210, 204, 35);
 }
 
 .logo{
-    height: 35vh;
+    margin: 5%;
+    height: 32vh;
 }
 
 h1{
@@ -41,7 +42,19 @@ a{
     justify-content: space-around;
 }
 
-.main{
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: "Spicy Rice", serif;
+    font-size: 65px;
+    color: rgb(58, 5, 108);
+}
+
+.container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
