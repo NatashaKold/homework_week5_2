@@ -61,10 +61,15 @@ h2{
     align-content: space-around;
 }
 
-.item_image{
+.image_container{
     width: 25vw;
     height: 30vh;
     padding: 20px;
+}
+.item_image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .item_image:hover{
